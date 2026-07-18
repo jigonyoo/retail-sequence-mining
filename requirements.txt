@@ -1,0 +1,5 @@
+# This project intentionally has zero third-party dependencies.
+# Core (mining/, data/, tests/, run_demo.py) uses only the Python 3
+# standard library (csv, math, dataclasses, datetime, random, unittest,
+# argparse, hashlib, os, typing). No pandas, numpy, requests, or any
+# network/HTTP client is imported anywhere in this project.

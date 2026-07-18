@@ -1,0 +1,6 @@
+services:
+  retail-sequence-mining:
+    build: .
+    network_mode: none
+    volumes:
+      - ./sample_output:/app/sample_output

@@ -1,0 +1,10 @@
+generated_by: run_demo.py
+customers: 600
+transactions: 4992
+cutoff_day: 400
+inactivity_window_days: 90
+min_support_count: 30
+churned_customers: 206
+frequent_patterns_found: 155
+churn_associations_reported: 156
+note: all associations are correlational, not causal.
