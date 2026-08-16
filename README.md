@@ -6,11 +6,6 @@ retention curves**, and (3) **churn associations** — which prior
 sequences or RFM buckets co-occur with customer churn, with counts and
 confidence intervals attached.
 
-This is sample #2 in a small "retail data mining" portfolio set. Sample
-#1 covers association-rule mining and RFM segmentation as a snapshot;
-this one adds the *time/sequence* dimension (order matters) and a
-*churn* outcome tied to specific prior behavior.
-
 **Positioning: this is a data engineering sample, not a causal-inference
 or ML product.** Every association reported here is correlational. See
 [Limitations](#limitations) below before reading too much into any
@@ -164,3 +159,10 @@ LICENSE (MIT)
   A/B test withholding the intervention from a comparable holdout) to
   confirm the pattern actually predicts — let alone causes — the
   outcome you care about.
+
+## About this sample
+
+This is sample #2 in a small "retail data mining" portfolio set. Sample
+#1 covers association-rule mining and RFM segmentation as a snapshot;
+this one adds the *time/sequence* dimension (order matters) and a
+*churn* outcome tied to specific prior behavior.
